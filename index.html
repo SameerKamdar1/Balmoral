@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -16,46 +16,102 @@
 </head>
 
 <body class=" w-full h-auto min-h-full">
-    <main class="h-screen bg-cover w-full bg-[url(responsive_hero_bg.jpg)] md:bg-[url(image_14.jpg)]">
-        <nav class="flex justify-between align-center px-2 py-2 bg-[#ffffff] opacity-75">
-            <div class="left_nav_bar">
-                <ul class="max-md:hidden flex align-center justify-between py-2 gap-5 font-bold text-xs ">
-                    <li><a href="">All</a> </li>
-                    <li><a href="">Tops</a> </li>
-                    <li><a href="">Bottoms</a> </li>
-                    <li><a href="">Accessories</a> </li>
-                </ul>
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none"
-                    stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-menu-icon lucide-menu cursor-pointer md:hidden">
-                    <path d="M4 12h20" />
-                    <path d="M4 18h20" />
+    <main class="h-full  w-full ">
+        <section
+            class="hero_container h-screen  w-full bg-cover bg-[url(responsive_hero_bg.jpg)] md:bg-[url(image_14.jpg)] flex flex-col justify-between">
 
-                </svg>
-            </div>
-            <div class="nav_center"><a href="">
-                    <h1 class="font-[Fautina] text-2xl  p-0 font-medium pl-6">Balmoral</h1>
-                </a></div>
-            <div class="right_nav_bar flex gap-5 align-center py-2">
-                <ul class=" max-md:hidden flex justify-between align-center gap-5 font-bold text-xs">
-                    <li><a href="">The brand</a> </li>
-                    <li><a href="">Search</a> </li>
-                    <li><a href="">Login</a> </li>
-                    <li><a href="">Cart</a> </li>
-                </ul>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
-                    class="bi bi-bag cursor-pointer md:hidden " viewBox="0 0 16 16">
-                    <path
-                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                    stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-search-icon lucide-search cursor-pointer md:hidden ">
-                    <path d="m21 21-4.34-4.34" />
-                    <circle cx="11" cy="11" r="8" />
-                </svg>
-            </div>
-        </nav>
+            <nav class="flex justify-between align-center px-2 py-2 bg-[#ffffff] opacity-75">
+                <div class="left_nav_bar">
+                    <ul class="max-md:hidden flex align-center justify-between py-2 gap-5 font-bold text-xs ">
+                        <li><a href="">All</a> </li>
+                        <li><a href="">Tops</a> </li>
+                        <li><a href="">Bottoms</a> </li>
+                        <li><a href="">Accessories</a> </li>
+                    </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none"
+                        stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-menu-icon lucide-menu cursor-pointer md:hidden">
+                        <path d="M4 12h20" />
+                        <path d="M4 18h20" />
+
+                    </svg>
+                </div>
+                <div class="nav_center"><a href="">
+                        <h1 class="font-[Fautina] text-2xl  p-0 font-medium pl-6">Balmoral</h1>
+                    </a></div>
+                <div class="right_nav_bar flex gap-5 align-center py-2">
+                    <ul class=" max-md:hidden flex justify-between align-center gap-5 font-bold text-xs">
+                        <li><a href="">The brand</a> </li>
+                        <li><a href="">Search</a> </li>
+                        <li><a href="">Login</a> </li>
+                        <li><a href="">Cart</a> </li>
+                    </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                        class="bi bi-bag cursor-pointer md:hidden " viewBox="0 0 16 16">
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-search-icon lucide-search cursor-pointer md:hidden ">
+                        <path d="m21 21-4.34-4.34" />
+                        <circle cx="11" cy="11" r="8" />
+                    </svg>
+                </div>
+            </nav>
+
+
+            <section class="bottom_text text-[#ffffff] flex flex-col  gap-6  px-2 py-3 mb-5 block md:hidden">
+
+
+                <h1 class="font-neue montreal text-xl">SPRINT-SUMMER <sup>26</sup></h1>
+
+
+                <p class="leading-4 font-neue montreal font-thin ">A collection shaped at the intersection of
+                    Montreal’s grit and technical innovation. As we move into
+                    the 2026 summer season, our latest range reimagines warm-weather running through lightweight
+                    construction, breathable performance, and considered design built for heat and movement.</p>
+
+
+                <a href=""class="font-neue montreal underline decoration-2  text-sm ">SHOP NOW</a>
+
+
+            </section>
+
+
+
+            <section class=" bottom_text text-[#ffffff] flex flex-row items-end justify-between  w-full h-auto px-2 py-3 mb-3 max-md:hidden ">
+
+                <div class="left flex flex-row items-end gap-5 basis-2/3">
+
+                    <h1 class="font-neue montreal text-4xl">SPRINT-SUMMER <sup>26</sup></h1>
+    
+                    <a href=""
+                        class="font-neue montreal underline decoration-2  text-sm ">SHOP
+                        NOW</a>
+                </div>
+
+
+                <div class="right basis-1/3">
+                    <p class="leading-4 font-neue montreal   ">A collection shaped at the intersection of
+                        Montreal’s grit and technical innovation. As we move into
+                        the 2026 summer season, our latest range reimagines warm-weather running through lightweight
+                        construction, breathable performance, and considered design built for heat and movement.</p>
+
+                </div>
+
+
+            </section>
+
+
+
+        </section>
+
+
+        <section class="video h-[35rem] w-full overflow-hidden">
+            <video autoplay loop src="e9774d0a060846bea5942e5fbf8d9114.HD-1080p-7.2Mbps-81327041.mp4"
+                class="  w-full h-full object-cover"></video>
+        </section>
 
 
     </main>
