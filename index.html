@@ -18,15 +18,18 @@
 <body class=" w-full h-auto min-h-full">
     <main class="h-full  w-full ">
         <section
-            class="hero_container h-screen  w-full bg-cover bg-[url(responsive_hero_bg.jpg)] md:bg-[url(image_14.jpg)] flex flex-col justify-between">
+            class="hero_container h-screen  w-full  ">
+            <div class=" relative w-full h-full">
 
-            <nav class="flex justify-between align-center px-2 py-2 bg-[#ffffff] opacity-75">
+                <img src="responsive_hero_bg.jpg" alt="" class="max-md:brightness-75 md:hidden w-full h-full object-cover">
+                <img src="image_14.jpg" alt="" class=" max-md:hidden w-full h-full object-cover">
+                 <nav class=" absolute top-0 left-0 right-0 flex justify-between align-center px-2 py-3 bg-[#ffffff] opacity-75">
                 <div class="left_nav_bar">
-                    <ul class="max-md:hidden flex align-center justify-between py-2 gap-5 font-bold text-xs ">
-                        <li><a href="">All</a> </li>
-                        <li><a href="">Tops</a> </li>
-                        <li><a href="">Bottoms</a> </li>
-                        <li><a href="">Accessories</a> </li>
+                    <ul class="max-md:hidden flex align-center justify-between py-2 gap-7 font-medium text-sm transition-opacity ease-in duration-200 ease-in duration-200 [nav:has(ul:hover)_&]:opacity-25 hover:!opacity-100">
+                        <li><a href="" class="transition-opacity ease-in duration-200 ease-in duration-200 [ul:has(a:hover)_&]:opacity-15 hover:!opacity-100">All</a> </li>
+                        <li><a href="" class="transition-opacity ease-in duration-200 ease-in duration-200 [ul:has(a:hover)_&]:opacity-15 hover:!opacity-100">Tops</a> </li>
+                        <li><a href="" class="transition-opacity ease-in duration-200 ease-in duration-200 [ul:has(a:hover)_&]:opacity-15 hover:!opacity-100">Bottoms</a> </li>
+                        <li><a href="" class="transition-opacity ease-in duration-200 ease-in duration-200 [ul:has(a:hover)_&]:opacity-15 hover:!opacity-100">Accessories</a> </li>
                     </ul>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none"
                         stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
@@ -37,14 +40,14 @@
                     </svg>
                 </div>
                 <div class="nav_center"><a href="">
-                        <h1 class="font-[Fautina] text-2xl  p-0 font-medium pl-6">Balmoral</h1>
+                        <h1 class="font-[Fautina] text-[1.6rem]  p-0 font-medium pl-6">Balmoral</h1>
                     </a></div>
                 <div class="right_nav_bar flex gap-5 align-center py-2">
-                    <ul class=" max-md:hidden flex justify-between align-center gap-5 font-bold text-xs">
-                        <li><a href="">The brand</a> </li>
-                        <li><a href="">Search</a> </li>
-                        <li><a href="">Login</a> </li>
-                        <li><a href="">Cart</a> </li>
+                    <ul class=" max-md:hidden flex justify-between align-center gap-7 font-medium text-sm transition-opacity ease-in duration-200 [nav:has(ul:hover)_&]:opacity-25 hover:!opacity-100">
+                        <li><a href="" class="transition-opacity ease-in duration-200 [ul:has(a:hover)_&]:opacity-15 hover:!opacity-100">The brand</a> </li>
+                        <li><a href="" class="transition-opacity ease-in duration-200 [ul:has(a:hover)_&]:opacity-15 hover:!opacity-100">Search</a> </li>
+                        <li><a href="" class="transition-opacity ease-in duration-200 [ul:has(a:hover)_&]:opacity-15 hover:!opacity-100">Login</a> </li>
+                        <li><a href="" class="transition-opacity ease-in duration-200 [ul:has(a:hover)_&]:opacity-15 hover:!opacity-100">Cart</a> </li>
                     </ul>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
                         class="bi bi-bag cursor-pointer md:hidden " viewBox="0 0 16 16">
@@ -60,8 +63,8 @@
                 </div>
             </nav>
 
-
-            <section class="bottom_text text-[#ffffff] flex flex-col  gap-6  px-2 py-3 mb-5 block md:hidden">
+            <div class="absolute bottom-0 left-0 right-0 text-white ">
+                 <section class="bottom_text text-[#ffffff] flex flex-col  gap-6  px-2 py-3 mb-5 block md:hidden">
 
 
                 <h1 class="font-neue montreal text-xl">SPRINT-SUMMER <sup>26</sup></h1>
@@ -73,7 +76,7 @@
                     construction, breathable performance, and considered design built for heat and movement.</p>
 
 
-                <a href="" class="font-neue montreal underline decoration-2  text-sm ">SHOP NOW</a>
+                <a href="" class="font-neue montreal underline decoration-2  text-sm  ">SHOP NOW</a>
 
 
             </section>
@@ -86,22 +89,28 @@
                 <div class="left flex flex-row items-end gap-5 basis-2/3">
 
                     <h1 class="font-neue montreal text-4xl">SPRINT-SUMMER <sup>26</sup></h1>
-
-                    <a href="" class="font-neue montreal underline decoration-2  text-sm ">SHOP
-                        NOW</a>
+                     <a href="" class="font-neue montreal underline decoration-2 text-sm ">SHOP NOW</a>
+                   
                 </div>
 
 
                 <div class="right basis-1/3">
-                    <p class="leading-4 font-neue montreal   ">A collection shaped at the intersection of
-                        Montreal’s grit and technical innovation. As we move into
-                        the 2026 summer season, our latest range reimagines warm-weather running through lightweight
-                        construction, breathable performance, and considered design built for heat and movement.</p>
+                   <p class="leading-4 font-neue montreal font-thin ">A collection shaped at the intersection of
+                    Montreal’s grit and technical innovation. As we move into
+                    the 2026 summer season, our latest range reimagines warm-weather running through lightweight
+                    construction, breathable performance, and considered design built for heat and movement.</p>
+
 
                 </div>
 
 
             </section>
+
+
+            </div>
+            </div>
+           
+
 
 
 
@@ -114,102 +123,327 @@
         </section>
 
         <section class="photo_grid grid grid-col-2 grid-row-10 gap-3  p-3 md:grid-col-4 md:grid-row-4">
-            <div class=" col-span-2 row-span-4 md:col-end-3 md:row-end-3 md:col-span-2 md:row-span-2"> <img
-                    src="20260310_BALMORAL_CONTENT2965_1_RevB.jpg" alt=""> </div>
-            <div class="bg-[#eaeaec] md:col-start-3 md:row-start-1"><img src="032626_BALMORAL_ECOM6695.png" alt="">
-            </div>
-            <div class="bg-[#eaeaec] md:col-start-4 md:row-start-1"><img src="032626_BALMORAL_ECOM6691.png" alt="">
-            </div>
-            <div class=" col-span-2 row-span-4 md:col-span-2 md:row-span-2 md:col-start-3 md:row-start-3"> <img
-                    src="20260310_BALMORAL_CONTENT3267.jpg" alt=""> </div>
-            <div class="bg-[#eaeaec] md:col-start-1 md:row-start-3"><img src="032626_BALMORAL_ECOM6318_1.png" alt="">
-            </div>
-            <div class="bg-[#eaeaec] md:col-start-2 md:row-start-3"><img src="090425_BALMORAL-ECOM4491_2.png" alt="">
-            </div>
-        </section>
+            <div class="relative col-span-2 row-span-4 md:col-end-3 md:row-end-3 md:col-span-2 md:row-span-2">
+                <img src="20260310_BALMORAL_CONTENT2965_1_RevB.jpg" alt="">
+                <div
+                    class="grid min-[1200px]:grid-cols-2 grid-rows-[auto_auto_auto] grid-cols-1 max-[1200px]:gap-y-6 py-6 px-3 gap-x-6  absolute  bottom-0 left-0 text-white">
+                    <h1 class="md:text-4xl text-2xl col-start-1 row-start-1">HEADWEAR</h1>
+                    <p class="leading-4 row-start-2 col-start-1 min-[1200px]:col-start-2">
 
-        <section class="Cotton_T-shirts grid md:grid-col-4 md:grid-row-1 gap-3 p-3 grid-col-2 grid-row-2 ">
-            <div class="tshirt col-start-1 row-start-1 md:row-start-1 md:col-start-1 bg-[#eaeaec]"><img
-                    src="032626_BALMORAL_ECOM6524.png" alt=""></div>
-            <div class="tshirt col-start-2 row-start-1 md:row-start-1 md:col-start-2 bg-[#eaeaec]"><img
-                    src="032626_BALMORAL_ECOM6517.png" alt=""></div>
-            <div class="tshirt col-start-1 row-start-2 md:row-start-1 md:col-start-3 bg-[#eaeaec]"><img
-                    src="032626_BALMORAL_ECOM6522.png" alt=""></div>
-            <div class="tshirt col-start-2 row-start-2 md:row-start-1 md:col-start-4 bg-[#eaeaec]"><img
-                    src="032626_BALMORAL_ECOM6512.png" alt=""></div>
-        </section>
-        <section class="Performance_T-Shirts grid md:grid-col-4 md:grid-row-1 gap-3 p-3 grid-col-2 grid-row-2 ">
-            <div class="tshirt col-start-1 row-start-1 md:row-start-1 md:col-start-1 bg-[#eaeaec]"><img
-                    src="032626_BALMORAL_ECOM6459.png" alt=""></div>
-            <div class="tshirt col-start-2 row-start-1 md:row-start-1 md:col-start-2 bg-[#eaeaec]"><img
-                    src="032626_BALMORAL_ECOM6443.png" alt=""></div>
-            <div class="tshirt col-start-1 row-start-2 md:row-start-1 md:col-start-3 bg-[#eaeaec]"><img
-                    src="032626_BALMORAL_ECOM6454.png" alt=""></div>
-            <div class="tshirt col-start-2 row-start-2 md:row-start-1 md:col-start-4 bg-[#eaeaec]"><img
-                    src="032626_BALMORAL_ECOM6509.png" alt=""></div>
-        </section>
-        <section class="about_plus_discover grid grid-cols-1  grid-rows-2  py-3 md:grid-cols-2 md:grid-rows-1">
-            <div class=" row-start-1 col-start-1 md:row-start-1 md:col-start-1"><img
-                    src="032626_BALMORAL_ECOM6842_1.jpg" alt="" class="  h-full object-cover aspect-1/1 md:aspect-4/5">
+                        SS26 Collection <br>
+                        - <br>
+                        For Spring–Summer 2026, Balmoral presents a range of headwear designed for warm weather movement
+                        and everyday wear, lightweight, breathable, and precise in construction. Each piece is shaped by
+                        performance needs and daily use, with a considered approach to form and function.
+                    </p>
+                    <a href=""
+                        class="font-neue montreal underline decoration-2  text-sm col-start-1 row-start-3 min-[1200px]:col-start-2 min-[1200px]:pt-6">SHOP
+                        HEADWEAR</a>
+                </div>
             </div>
-            <div class=" row-start-2 col-start-1 md:row-start-1 md:col-start-2"><video muted autoplay loop
-                    src="c96a1942b1894cf18a35d6da49aee5a7.HD-1080p-7.2Mbps-81646476.mp4"
-                    class="h-full object-cover  "></video></div>
+            <div class="relative w-full bg-[#eaeaec] md:col-start-3 md:row-start-1 group"><img
+                    src="032626_BALMORAL_ECOM6695.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="col-start-1 row-start-1 col-span-2 ">4-Panel Hat</h1>
+                    <p class="col-start-1 row-start-2 p-0 m-0 text-xs self-end">$65.00 USD</p>
+                    <div
+                        class="col-start-2 row-start-2 grid grid-cols-3 grid-rows-[auto_auto] gap-x-1 gap-y-1 w-full h-full">
+                        <div class="col-start-2 row-start-2 bg-[#1e1e4c] w-full"></div>
+                        <div class="col-start-3 row-start-2 bg-[#575757] w-full"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative bg-[#eaeaec] md:col-start-4 md:row-start-1 group"><img
+                    src="032626_BALMORAL_ECOM6691.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">6-Panel Hat</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$65.00 USD</p>
+                    <div
+                        class="col-start-2 row-start-2 grid grid-cols-3 grid-rows-[auto_auto] gap-x-1 gap-y-1 w-full h-full">
+                        <div class="col-start-1 row-start-2 bg-[#eae1a5] w-full"></div>
+                        <div class="col-start-2 row-start-2 bg-[#c11111] w-full"></div>
+                        <div class="col-start-3 row-start-2 bg-[#1e1e4c] w-full"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="relative col-span-2 row-span-4 md:col-span-2 md:row-span-2 md:col-start-3 md:row-start-3"> <img
+                    src="20260310_BALMORAL_CONTENT3267.jpg" alt="">
+                <div
+                    class="grid min-[1200px]:grid-cols-2 grid-rows-[auto_auto_auto] grid-cols-1 max-[1200px]:gap-y-6 py-6 px-3 gap-x-6  absolute  bottom-0 left-0 text-white">
+                    <h1 class="md:text-4xl text-2xl col-start-1 row-start-1">THE OAKWOOD COLLECTION</h1>
+                    <p class="leading-4 row-start-2 col-start-1 min-[1200px]:col-start-2">
+
+                        The Oakwood collection brings together a selection of styles designed for race day performance.
+                        Lightweight, focused, and built to move, each piece is refined for speed and clarity when it
+                        matters most.
+                    </p>
+                    <a href=""
+                        class="font-neue montreal underline decoration-2  text-sm col-start-1 row-start-3 min-[1200px]:col-start-2 min-[1200px]:pt-6">DISCOVER</a>
+                </div>
+            </div>
+
+            <div class="relative bg-[#eaeaec] md:col-start-1 md:row-start-3 group"><img
+                    src="032626_BALMORAL_ECOM6318_1.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Tanktop</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$120.00 USD</p>
+                    <div
+                        class="col-start-2 row-start-2 grid grid-cols-3 grid-rows-[auto_auto] gap-x-1 gap-y-1 w-full h-full">
+                        <div class="col-start-1 row-start-2 bg-[#000000] w-full"></div>
+                        <div class="col-start-2 row-start-2 bg-[#1e1e4c] w-full"></div>
+                        <div class="col-start-3 row-start-2 bg-[#e0d8c8] w-full"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="relative bg-[#eaeaec] md:col-start-2 md:row-start-3 group"><img
+                    src="090425_BALMORAL-ECOM4491_2.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Longsleeve</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$140.00 USD</p>
+                    <div
+                        class="col-start-2 row-start-2 grid grid-cols-3 grid-rows-[auto_auto] gap-x-1 gap-y-1 w-full h-full">
+                        <div class="col-start-1 row-start-2 bg-[#000000] w-full"></div>
+                        <div class="col-start-2 row-start-2 bg-[#1e1e4c] w-full"></div>
+                        <div class="col-start-3 row-start-2 bg-[#e0d8c8] w-full"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="flex justify-between items-end px-3 py-1 mt-12">
+            <h1 class="text-xl">Cotton T-shirts</h1>
+            <a href="" class="font-neue montreal underline decoration-2  text-sm ">SHOP</a>
+        </div>
+        <section class="Cotton_T-shirts grid md:grid-col-4 md:grid-row-1 gap-3 px-3 pb-3 grid-col-2 grid-row-2 ">
+            <div class="relative tshirt col-start-1 row-start-1 md:row-start-1 md:col-start-1 bg-[#eaeaec] group"><img
+                    src="032626_BALMORAL_ECOM6524.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Athleisure T-Shirt</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$75.00 USD</p>
+
+
+                </div>
+            </div>
+            <div class="relative tshirt col-start-2 row-start-1 md:row-start-1 md:col-start-2 bg-[#eaeaec] group"><img
+                    src="032626_BALMORAL_ECOM6517.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Gallery T-Shirt</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$75.00 USD</p>
+
+
+                </div>
+            </div>
+            <div class="relative tshirt col-start-1 row-start-2 md:row-start-1 md:col-start-3 bg-[#eaeaec] group"><img
+                    src="032626_BALMORAL_ECOM6522.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Harvest T-Shirt</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$75.00 USD</p>
+
+
+                </div>
+            </div>
+            <div
+                class="relative  col-span-2tshirt col-start-2 row-start-2 md:row-start-1 md:col-start-4 bg-[#eaeaec] group">
+                <img src="032626_BALMORAL_ECOM6512.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Radius T-Shirt</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$75.00 USD</p>
+
+
+                </div>
+            </div>
+        </section>
+        <div class="flex justify-between items-end px-3 py-1 mt-9">
+            <h1 class="text-xl">Performance T-Shirts</h1>
+            <a href="" class="font-neue montreal underline decoration-2  text-sm ">SHOP</a>
+        </div>
+        <section class="Performance_T-Shirts grid md:grid-col-4 md:grid-row-1 gap-3 px-3 pb-3 grid-col-2 grid-row-2 ">
+            <div class="relative tshirt col-start-1 row-start-1 md:row-start-1 md:col-start-1 bg-[#eaeaec] group"><img
+                    src="032626_BALMORAL_ECOM6459.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Oxford T-Shirt</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$150.00 USD</p>
+
+
+                </div>
+            </div>
+            <div class="relative tshirt col-start-2 row-start-1 md:row-start-1 md:col-start-2 bg-[#eaeaec] group"><img
+                    src="032626_BALMORAL_ECOM6443.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Plaza T-Shirt</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$110.00 USD</p>
+                    <div
+                        class="col-start-2 row-start-2 grid grid-cols-3 grid-rows-[auto_auto] gap-x-1 gap-y-1 w-full h-full">
+                        <div class="col-start-1 row-start-2 bg-[#492e0f] w-full"></div>
+                        <div class="col-start-2 row-start-2 bg-[#63b0e1] w-full"></div>
+                        <div class="col-start-3 row-start-2 bg-[#efe8cd] w-full"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="relative tshirt col-start-1 row-start-2 md:row-start-1 md:col-start-3 bg-[#eaeaec] group"><img
+                    src="032626_BALMORAL_ECOM6454.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Sports T-Shirt</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$110.00 USD</p>
+                    <div
+                        class="col-start-2 row-start-2 grid grid-cols-3 grid-rows-[auto_auto] gap-x-1 gap-y-1 w-full h-full">
+                        <div class="col-start-1 row-start-2 bg-[#ffffff] w-full"></div>
+                        <div class="col-start-2 row-start-2 bg-[#123005] w-full"></div>
+                        <div class="col-start-3 row-start-2 bg-[#4c0e20] w-full"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="relative tshirt col-start-2 row-start-2 md:row-start-1 md:col-start-4 bg-[#eaeaec] group"><img
+                    src="032626_BALMORAL_ECOM6509.png" alt="">
+                <div
+                    class="grid grid-cols-2 grid-rows-[auto_auto]  absolute  bottom-0 left-0 p-2 w-full md:opacity-0 duration-300 ease-in-out group-hover:opacity-100 ">
+                    <h1 class="grid-start-1 row-start-1 col-span-2 ">Lansdowne T-Shirt</h1>
+                    <p class="grid-start-1 row-start-2  text-xs self-end">$105.00 USD</p>
+                    <div
+                        class="col-start-2 row-start-2 grid grid-cols-3 grid-rows-[auto_auto] gap-x-1 gap-y-1 w-full h-full">
+                        <div class="col-start-1 row-start-2 bg-[#efe8cd] w-full"></div>
+                        <div class="col-start-2 row-start-2 bg-[#adc9f2] w-full"></div>
+                        <div class="col-start-3 row-start-2 bg-[#ffffff] w-full"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class=" about_plus_discover grid grid-cols-1  grid-rows-2  py-3 md:grid-cols-2 md:grid-rows-1">
+
+            <div class="relative row-start-1 col-start-1 md:row-start-1 md:col-start-1"><img
+                    src="032626_BALMORAL_ECOM6842_1.jpg" alt=""
+                    class=" brightness-75  h-full object-cover aspect-1/1 md:aspect-4/5">
+                <div
+                    class="subgrid  absolute top-0 left-0 text-white grid grid-cols-1 grid-rows-[auto_auto_auto] gap-y-3 md:grid-cols-4 md:grid-rows-[auto_auto] py-3 min-[1200px]:grid-cols-6 min-[1200px]:grid-rows-[auto] p-3">
+                    <h1 class=" col-start-1 row-start-1">About Us</h1>
+                    <p
+                        class=" col-start-1 row-start-2 md:col-span-4 min-[1200px]:col-start-5 min-[1200px]:row-start-1 min-[1200px]:col-span-2">
+                        Balmoral was founded in Canada to create timeless garments shaped by the country’s distinct
+                        climate
+                        and way of life.</p>
+                    <a href=""
+                        class="font-neue montreal underline decoration-2  text-sm col-start-1 row-start-3 md:hidden">DISCOVER</a>
+
+                </div>
+            </div>
+            <div class="relative row-start-2 col-start-1 md:row-start-1 md:col-start-2">
+                <video muted autoplay loop src="c96a1942b1894cf18a35d6da49aee5a7.HD-1080p-7.2Mbps-81646476.mp4"
+                    class="h-full object-cover  "></video>
+                <div class="subgrid absolute top-0 right-0 text-white md:grid md:grid-cols-4 md:grid-rows-[auto] p-3 ">
+
+                    <a href=""
+                        class="max-md:hidden font-neue montreal underline decoration-2  text-sm col-start-4 row-start-1 ">DISCOVER</a>
+
+                </div>
+            </div>
         </section>
         <section
-            class=" bottom_extras flex justify-between flex-nowrap overflow-auto scrollbar-none scroll-smooth snap-x md:grid md:grid-cols-4 md:grid-rows-1 gap-3 p-3 ">
-            <div class="md:col-start-1 w-full h-full snap-center shrink-0"> <img
-                    src="20260310_BALMORAL_CONTENT3179_2.jpg" alt="" class=" h-full w-full object-cover aspect-4/5">
+            class=" bottom_extras flex justify-between flex-nowrap overflow-y-visible overflow-x-auto scrollbar-none scroll-smooth snap-x md:grid md:grid-cols-4 md:grid-rows-1 gap-3 p-3 mt-6">
+            <div class="relative md:col-start-1 w-full  snap-center shrink-0">
+                <h2 class="text-xl">Shipping & returns</h2>
+                <div class="overflow-hidden w-fit ">
+                    <img src="20260310_BALMORAL_CONTENT3179_2.jpg" alt="" class="hover:scale-105 duration-700 ease-in-out w-full  w-full object-cover aspect-4/5">
+                </div>
+                <p>Review our shipping & returns information</p>
+
+
+
             </div>
-            <div class="md:col-start-2 w-full h-full snap-center shrink-0"> <img
-                    src="Contact_Us_Image_Placeholder_9f60abc3-4bf3-4fb8-920d-72c0844b81ab.jpg" alt=""
-                    class=" h-full w-full object-cover aspect-4/5"></div>
-            <div class="md:col-start-3 w-full h-full snap-center shrink-0"> <img
-                    src="032526_BALMORAL-LOOKBOOK_6006_1.jpg" alt="" class=" h-full w-full object-cover aspect-4/5">
+            <div class="relative md:col-start-2 w-full  snap-center shrink-0">
+                <h2 class="text-xl">Contact</h2>
+                <div class="overflow-hidden w-fit ">
+
+                    <img src="Contact_Us_Image_Placeholder_9f60abc3-4bf3-4fb8-920d-72c0844b81ab.jpg" alt=""
+                    class="hover:scale-105 duration-700 ease-in-out w-full  w-full object-cover aspect-4/5">
+                </div>
+
+                <p>Email our team for all inquiries</p>
+
             </div>
-            <div class="md:col-start-4 w-full h-full snap-center shrink-0"> <img src="032626_BALMORAL_ECOM6778.jpg"
-                    alt="" class=" h-full w-full object-cover aspect-4/5"></div>
+            <div class="relative md:col-start-3 w-full  snap-center shrink-0 ">
+                <h2 class="text-xl">Lookbook</h2>
+                <div class="overflow-hidden w-fit ">
+
+                    <img src="032526_BALMORAL-LOOKBOOK_6006_1.jpg" alt=""
+                        class=" hover:scale-105 duration-700 ease-in-out w-full object-cover aspect-4/5 zoom-100 hover:zoom-125 transition-transform duration-300 ease-in-out">
+                </div>
+
+                <p>Explore the Spring Summer 26 Lookbook</p>
+
+
+            </div>
+            <div class="relative md:col-start-4 w-full snap-center shrink-0">
+                <h2 class="text-xl">Press</h2>
+                <div class="overflow-hidden w-fit ">
+                    <img src="032626_BALMORAL_ECOM6778.jpg" alt="" class="hover:scale-105 duration-700 ease-in-out w-full  w-full object-cover aspect-4/5">
+                </div>
+
+                <p>Discover our selected features and mentions</p>
+
+            </div>
         </section>
-        <footer class="min-[1199px]:hidden grid grid-cols-2 grid-rows-[auto_auto_auto_auto] gap-10 p-2 md:grid-cols-2 md:grid-rows-[auto_auto]">
-            <div class=" col-span-2 col-start-1 text-sm upper_left grid grid-cols-2 grid-rows-[auto_auto] gap-y-9 gap-x-2 md:col-start-1  md:col-span-1 ">
+        <footer
+            class="pb-3 mt-21 min-[1199px]:hidden grid grid-cols-2 grid-rows-[auto_auto_auto_auto] gap-10 p-2 md:grid-cols-2 md:grid-rows-[auto_auto]">
+            <div
+                class=" col-span-2 col-start-1 text-sm upper_left grid grid-cols-2 grid-rows-[auto_auto] gap-y-9 gap-x-2 md:col-start-1  md:col-span-1">
 
                 <div>
-                    <p>Contact Us</p>
-                    <p>Instagram</p>
-                    <p>FAQs</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Contact Us</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Instagram</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">FAQs</p>
                 </div>
                 <div>
-                    <p>Shipping & returns</p>
-                    <p>Start a return</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Shipping & returns</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Start a return</p>
                 </div>
                 <div>
-                    <p>Press</p>
-                    <p>Terms & policies</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Press</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Terms & policies</p>
                 </div>
             </div>
-            <div class="col-span-2 row-start-2 text-xs flex flex-col justify-end  subscribe md:col-start-2 md:row-start-1 md:col-span-1 md:justify-start ">
+            <div
+                class="col-span-2 row-start-2 text-xs flex flex-col justify-end gap-2 subscribe md:col-start-2 md:row-start-1 md:col-span-1 md:justify-start ">
                 <p class="md:mb-6">SUBSCRIBE TO OUR NEWSLETTER</p>
                 <input class="w-60" type="email" placeholder="Enter you email address here">
                 <div class="under_line w-full h-px bg-black mt-2"></div>
             </div>
-            <div class="col-start-1 row-start-4 col-span-2 text-xs  credit md:col-start-1 md:row-start-2 md:col-span-1 ">
-                   <div class="under_line block md:hidden w-full h-px bg-black/50 mb-2"></div>
+            <div
+                class="col-start-1 row-start-4 col-span-2 text-xs  credit md:col-start-1 md:row-start-2 md:col-span-1 md:self-end self-end">
+                <div class="under_line block md:hidden w-full h-px bg-black/50 mb-2"></div>
                 <div class="flex justify-between items-end">
                     <p>Copyright © 2026 Balmoral Running</p>
                     <p>CREDITS</p>
                 </div>
             </div>
-            <div class="col-start-1 row-start-3 col-span-2 max-w-74 lang_n_country flex justify-between items-end md:col-start-2 md:row-start-2 md:col-span-1 ">
-                <div class="  lang w-full max-w-xs flex flex-col">
+            <div
+                class="col-start-1 row-start-3 col-span-2 max-w-74 lang_n_country flex justify-between items-end md:col-start-2 md:row-start-2 md:col-span-1 ">
+                <div class="gap-2  lang w-full max-w-xs flex flex-col">
                     <label class="text-xs" for="Language">SELECT LANGUAGE</label>
-                    <select class="text-2xs max-w-18" name="Language" id="">
+                    <select class="transition-opacity ease-in duration-200 [div:has(select:hover)_&]:opacity-15 hover:!opacity-100 text-2xs max-w-18" name="Language" id="">
                         <option value="">English</option>
                         <option value="">Françias</option>
                     </select>
                 </div>
-                <div class="  w-full max-w-30  country flex flex-col">
+                <div class="gap-2  w-full max-w-30  country flex flex-col">
                     <label class="text-xs" for="country">SELECT COUNTRY</label>
-                    <select class=" text-2xs max-w-30 truncate overflow-hidden  whitespace-nowrap " name="country" id="">
+                    <select class="transition-opacity ease-in duration-200 [div:has(select:hover)_&]:opacity-15 hover:!opacity-100 text-2xs max-w-30 truncate overflow-hidden  whitespace-nowrap " name="country"
+                        id="">
                         <option value="AF">Afghanistan (USD)</option>
                         <option value="AX">Åland Islands (USD)</option>
                         <option value="AL">Albania (USD)</option>
@@ -448,52 +682,54 @@
                         <option value="ZM">Zambia (USD)</option>
                         <option value="ZW">Zimbabwe (USD)</option>
                     </select>
-                    
+
                 </div>
-                
+
             </div>
-            
+
         </footer>
-        <section class="max-[1199px]:hidden test-sub grid grid-cols-12 grid-rows-[auto_auto]">
-             <div class="  text-sm upper_left grid grid-cols-2 grid-rows-[auto_auto] gap-y-9 gap-x-2 grid-cols-3 grid-rows-[auto] col-start-4 col-span-5 row-start-1">
+        <section class="pb-3 p-2 px-3 mt-21 max-[1199px]:hidden test-sub grid grid-cols-12 grid-rows-[auto_auto]">
+            <div
+                class="text-sm upper_left grid grid-cols-2 grid-rows-[auto_auto] gap-y-9 gap-x-2 grid-cols-3 grid-rows-[auto] col-start-4 col-span-5 row-start-1 self-end">
 
                 <div>
-                    <p>Contact Us</p>
-                    <p>Instagram</p>
-                    <p>FAQs</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Contact Us</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Instagram</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">FAQs</p>
                 </div>
                 <div>
-                    <p>Shipping & returns</p>
-                    <p>Start a return</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Shipping & returns</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Start a return</p>
                 </div>
                 <div>
-                    <p>Press</p>
-                    <p>Terms & policies</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Press</p>
+                    <p class="transition-opacity ease-in duration-200 [div:has(p:hover)_&]:opacity-15 hover:!opacity-100">Terms & policies</p>
                 </div>
             </div>
-            <div class=" text-xs flex flex-col justify-start  subscribe col-start-10 row-start-1 col-span-3    ">
+            <div class=" text-xs flex flex-col justify-start  subscribe col-start-10 row-start-1 col-span-3 gap-2">
                 <p class="md:mb-6">SUBSCRIBE TO OUR NEWSLETTER</p>
                 <input class="w-60" type="email" placeholder="Enter you email address here">
                 <div class="under_line w-full h-px bg-black mt-2"></div>
             </div>
-            <div class=" text-xs self-endcredit col-start-1 col-end-6 row-start-2">
-                  
+            <div class=" text-xs self-endcredit col-start-1 col-end-6 row-start-2 self-end">
+
                 <div class="flex self-end justify-between items-end">
                     <p>Copyright © 2026 Balmoral Running</p>
                     <p>CREDITS</p>
                 </div>
             </div>
             <div class=" max-w-74 lang_n_country flex justify-between items-end col-span-3 col-start-10 row-start-2 ">
-                <div class="  lang w-full max-w-xs flex flex-col">
+                <div class="gap-2 lang w-full max-w-xs flex flex-col">
                     <label class="text-xs" for="Language">SELECT LANGUAGE</label>
-                    <select class="text-2xs max-w-18" name="Language" id="">
+                    <select class="transition-opacity ease-in duration-200 [div:has(select:hover)_&]:opacity-15 hover:!opacity-100 text-2xs max-w-18" name="Language" id="">
                         <option value="">English</option>
                         <option value="">Françias</option>
                     </select>
                 </div>
-                <div class="  w-full max-w-30  country flex flex-col ">
+                <div class="gap-2 w-full max-w-30  country flex flex-col ">
                     <label class="text-xs" for="country">SELECT COUNTRY</label>
-                    <select class=" text-2xs max-w-30 truncate overflow-hidden  whitespace-nowrap " name="country" id="">
+                    <select class="transition-opacity ease-in duration-200 [div:has(select:hover)_&]:opacity-15 hover:!opacity-100 text-2xs max-w-30 truncate overflow-hidden  whitespace-nowrap " name="country"
+                        id="">
                         <option value="AF">Afghanistan (USD)</option>
                         <option value="AX">Åland Islands (USD)</option>
                         <option value="AL">Albania (USD)</option>
@@ -732,11 +968,11 @@
                         <option value="ZM">Zambia (USD)</option>
                         <option value="ZW">Zimbabwe (USD)</option>
                     </select>
-                    
+
                 </div>
-                
+
             </div>
-            
+
         </section>
     </main>
 </body>
